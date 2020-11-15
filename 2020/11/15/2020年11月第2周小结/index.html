@@ -20,19 +20,19 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+  <meta name="description" content="2020年11月第2周小结摘要本文主要记载11月第二周工作和学习内容 工作本周工作主要围绕手势控制能力的集成展开，包括方案设计和编码实现。具体点，手势控制是指，当用户在设备摄像头前做出特定手势时，可以实现对具备手势控制能力的应用进行某些非接触式的控制，比如，视频通讯应用中，当检测到用户做出”嘘”手势时，实现应用的自动静音。该能力实现的原理为：利用目标识别技术，对图片进行解析，以识别出图片中的手势并">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://example.com/2020/11/08/hello-world/index.html">
-<meta property="og:site_name" content="zly&#39;s blog">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:title" content="2020年11月第2周小结">
+<meta property="og:url" content="http://example.com/2020/11/15/2020%E5%B9%B411%E6%9C%88%E7%AC%AC2%E5%91%A8%E5%B0%8F%E7%BB%93/index.html">
+<meta property="og:site_name" content="浪月云海的博客">
+<meta property="og:description" content="2020年11月第2周小结摘要本文主要记载11月第二周工作和学习内容 工作本周工作主要围绕手势控制能力的集成展开，包括方案设计和编码实现。具体点，手势控制是指，当用户在设备摄像头前做出特定手势时，可以实现对具备手势控制能力的应用进行某些非接触式的控制，比如，视频通讯应用中，当检测到用户做出”嘘”手势时，实现应用的自动静音。该能力实现的原理为：利用目标识别技术，对图片进行解析，以识别出图片中的手势并">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2020-11-08T10:50:41.799Z">
-<meta property="article:modified_time" content="2020-11-08T10:50:41.799Z">
-<meta property="article:author" content="zlyuan">
+<meta property="article:published_time" content="2020-11-15T13:25:36.000Z">
+<meta property="article:modified_time" content="2020-11-15T16:12:04.372Z">
+<meta property="article:author" content="浪月云海">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://example.com/2020/11/08/hello-world/">
+<link rel="canonical" href="http://example.com/2020/11/15/2020%E5%B9%B411%E6%9C%88%E7%AC%AC2%E5%91%A8%E5%B0%8F%E7%BB%93/">
 
 
 <script id="page-configurations">
@@ -45,7 +45,7 @@
   };
 </script>
 
-  <title>Hello World | zly's blog</title>
+  <title>2020年11月第2周小结 | 浪月云海的博客</title>
   
 
 
@@ -96,9 +96,10 @@
 
     <a href="/" class="brand" rel="start">
       <span class="logo-line-before"><i></i></span>
-      <h1 class="site-title">zly's blog</h1>
+      <h1 class="site-title">浪月云海的博客</h1>
       <span class="logo-line-after"><i></i></span>
     </a>
+      <p class="site-subtitle" itemprop="description">遇见更好的自己，用文字的方式</p>
   </div>
 
   <div class="site-nav-right">
@@ -160,20 +161,20 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2020/11/08/hello-world/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2020/11/15/2020%E5%B9%B411%E6%9C%88%E7%AC%AC2%E5%91%A8%E5%B0%8F%E7%BB%93/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="zlyuan">
+      <meta itemprop="name" content="浪月云海">
       <meta itemprop="description" content="">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="zly's blog">
+      <meta itemprop="name" content="浪月云海的博客">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          Hello World
+          2020年11月第2周小结
         </h1>
 
         <div class="post-meta">
@@ -183,8 +184,15 @@
               </span>
               <span class="post-meta-item-text">发表于</span>
 
-              <time title="创建时间：2020-11-08 18:50:41" itemprop="dateCreated datePublished" datetime="2020-11-08T18:50:41+08:00">2020-11-08</time>
+              <time title="创建时间：2020-11-15 21:25:36" itemprop="dateCreated datePublished" datetime="2020-11-15T21:25:36+08:00">2020-11-15</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-11-16 00:12:04" itemprop="dateModified" datetime="2020-11-16T00:12:04+08:00">2020-11-16</time>
+              </span>
 
           
 
@@ -197,19 +205,20 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+        <h1 id="2020年11月第2周小结"><a href="#2020年11月第2周小结" class="headerlink" title="2020年11月第2周小结"></a>2020年11月第2周小结</h1><p>摘要<br>本文主要记载11月第二周工作和学习内容</p>
+<h2 id="工作"><a href="#工作" class="headerlink" title="工作"></a>工作</h2><p>本周工作主要围绕手势控制能力的集成展开，包括方案设计和编码实现。具体点，手势控制是指，当用户在设备摄像头前做出特定手势时，可以实现对具备手势控制能力的应用进行某些非接触式的控制，比如，视频通讯应用中，当检测到用户做出”嘘”手势时，实现应用的自动静音。该能力实现的原理为：利用目标识别技术，对图片进行解析，以识别出图片中的手势并输出给媒体服务，当媒体服务连续收到若干个的相同手势时，则认为用户正在进行手势控制，并向APP发送一个控制指令，APP接收到该控制指令后，根据控制指令中的具体内容，向媒体服务发送具体动作命令，这样便实现了手势控制。以控制静音为例，整个流程如下图所示。</p>
+<div align=center><img src=asset\2020年11月第2周小结\手势控制基本流程.png></div>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<p>目前已经完成detector类所有方法的实现，完成了部分controller方法的实现。</p>
+<p>当前存在的困难：1)因为时差原因，和算法模型解释器开发的同事沟通效率极低；2)对算法模型运作原理认识模糊。</p>
+<p>如何克服：1) 针对现有项目诉求，列出具体事项，并在工作日晚上通过远程会议方式对齐相关事项，提升沟通效率；2)夯实图像处理技术相关概念和基本原理，并阅读相关文献，以了解技术原理和现状。</p>
+<h2 id="学习"><a href="#学习" class="headerlink" title="学习"></a>学习</h2><p>目前所有的学习内容都是为了变成一个熟练的媒体技术工程师服务。具体学习内容分为可以分为两条线：</p>
+<ol>
+<li>媒体内容在端侧的处理技术</li>
+<li>媒体在网络上的传输技术</li>
+</ol>
+<p>关于端侧处理技术，需要学习的内容包括：音视频数据采集和渲染、前后处理、重采样和编码。关于网络传输技术，需要学习的内容包括：TCP/IP/UDP，RTP/SRTP，RTMP，差错控制技术。</p>
+<p>当前采用的方式为：利用睡前、早起和午休的碎片时间，观看慕课网上的《数字图像处理》和《网络技术与应用》两门公开课，对相关基本概念进行系统学习和回顾，计划12月底之前完成这两门课程的学习。</p>
 
     </div>
 
@@ -280,13 +289,13 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-number">1.</span> <span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-number">1.1.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">1.2.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">1.3.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">1.4.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#2020%E5%B9%B411%E6%9C%88%E7%AC%AC2%E5%91%A8%E5%B0%8F%E7%BB%93"><span class="nav-number">1.</span> <span class="nav-text">2020年11月第2周小结</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B7%A5%E4%BD%9C"><span class="nav-number">1.1.</span> <span class="nav-text">工作</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AD%A6%E4%B9%A0"><span class="nav-number">1.2.</span> <span class="nav-text">学习</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
       <div class="site-overview-wrap sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-  <p class="site-author-name" itemprop="name">zlyuan</p>
+  <p class="site-author-name" itemprop="name">浪月云海</p>
   <div class="site-description" itemprop="description"></div>
 </div>
 <div class="site-state-wrap motion-element">
@@ -324,7 +333,7 @@
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">zlyuan</span>
+  <span class="author" itemprop="copyrightHolder">浪月云海</span>
 </div>
 
         
